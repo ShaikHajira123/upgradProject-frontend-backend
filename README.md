@@ -7,7 +7,7 @@ Frontend Repo Link : https://github.com/ShaikHajira123/upgradProject-frontend.gi
 
 Backend Repo Link : https://github.com/ShaikHajira123/upgradProject-backend.git
 
-Blog link :
+
 
 Technology We Used:
 -----------------------------------------------------------
@@ -15,7 +15,7 @@ In Frontend:
 1.HTML
 2.CSS
 3.JavaScript
-4.Bootstrap
+
 ..................................................................
 
 In Backend:
