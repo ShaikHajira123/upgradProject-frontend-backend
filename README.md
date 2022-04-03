@@ -16,6 +16,7 @@ In Frontend:
 2.CSS
 3.JavaScript
 4.Bootstrap
+..................................................................
 
 In Backend:
 1.Mongo DB
@@ -61,6 +62,8 @@ We created cloud database using MongoDb Atlas and deployed on AWS. So, if you wa
 AWS API'S Instructions
 -----------------------------------------------------------------------------------
   -> you can change the API by modifying url put one from below after ec2-13-52-80-205.us-west-1.compute.amazonaws.com:4900/
+
+
  1.datascience
  2.hire
  3.investors
