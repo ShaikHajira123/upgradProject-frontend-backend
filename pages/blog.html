@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>Home</title>
+   <style>
+       body{
+           margin: 0%;
+           background-color: rgb(247, 246, 246);
+       }
+       #kblog{
+        margin: 0 10%; 
+       }
+       #kbox{
+           display: grid;
+           grid-template-columns: repeat(3,1fr);
+            
+       }
+        .img{
+        border-radius: 2%;
+           width: 360px;
+           background-color: #fff;
+           margin: 20px;
+           box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+       }
+       .img img{
+           width: 100%;
+           height: 50%;
+           border-top-left-radius:2% ;
+           border-top-right-radius:2% ;
+           
+       }
+       .date{
+           display: flex;
+           margin: 0 0 -20px;
+       }
+       .date img{
+           width: 8%;
+           height: 8%;
+           border-radius: 50%;
+           margin: 4% 0 5% 5%;
+       }
+       .date p:last-child{
+           margin-left: 18%; 
+           color: rgb(179, 177, 177);
+       }
+       p{
+           margin:  5%;
+           color: rgb(78, 76, 76);
+       }
+       .img p:first-child{
+           color: red;
+       }
+       button{
+            background-color: #fff;
+            color: red;
+            width: 330px;
+            height: 50px;
+            font-size:15px;
+            font-weight: bold;
+            border: #fff;
+            border-radius: 5px;
+            margin: 4% 37%;
+       }
+       button:hover{
+           background-color: red;
+           color: #fff;
+       }
+
+
+       .containermain{
+    margin-top: -250px;
+   width:100%;
+   height: 100%;
+   background-color: #404040;
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+.containermain > div{
+   width:20%;
+   height:150px;
+   font-size: 18px;
+   text-align: left;
+   color: rgb(121, 113, 113);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding:20px;
+   padding-top: 300px;
+}
+.copyright{
+   float: left;
+   color:rgb(241, 229, 229);
+   text-align: left;
+}
+.containermain p{
+    color: rgb(148, 144, 144);
+}
+.containermain p:hover{
+color: #fff;
+font-weight:bold ;
+}
+ .box2 h4{
+    color: #fff;
+}
+
+#BVM{
+          background-color:#404040;
+          margin-bottom: -200px;
+        }
+        #Krishna{
+          width: 100%;
+            height: 1000px;
+            justify-content: center;
+            text-align: center;
+            background-color:#404040;
+            padding-left:7rem;
+            padding-right:7rem;
+
+          
+        }
+        #Arjun{
+            margin: 120px;
+            color: white;
+            text-align: centre;
+            text-align: left;
+        }
+        .abi{
+            font-weight: 900;
+            font-size: 27px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        p1{
+            font-size:16px ;
+            font-family: sans-serif;
+        }
+        span{
+            color:#404040;
+        }
+        
+
+ 
+a{
+    color: rebeccapurple;
+}
+p6{
+    color:white ;
+    padding-top: 100px;
+}
+.abi a{
+    float: right;
+}
+.abi{
+    padding-top: 20px;
+}
+.abi2 a{
+    float: right;
+
+}
+.abi3 a{
+    padding-left:25px;
+}
+.carousel-cell{
+    width: 100%;
+    height: 80vh;
+}
+.w3-images{
+    width: 100%;
+           height: 70vh;
+    
+}
+.heading{
+           display: flex;
+           font-weight: bolder;
+           font-size: 20px;
+           margin: 0 13% ;
+       }
+      .heading h1:first-child{
+           color: red;
+           font-weight: bolder;
+ }
+
+
+   </style>
+   
+  </head>
+
+  <body>
+    <div class="heading">
+        <h1>upGrad</h1>
+         
+      </div>
+    <div class="main-carousel" data-flickity='{"wrapAround":true,"autoPlay":false}'>
+        <div class="carousel-cell">
+            <img src="https://pluspromotions.ie/blog/wp-content/uploads/2020/02/future-web-developments.jpg " alt="" class="w3-images">
+        </div>
+        <div class="carousel-cell">
+            <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210222183454/How-to-Become-a-Full-Stack-Web-Developer-in-2021.png"alt="" class="w3-images">
+        </div>
+        <div class="carousel-cell">
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS43dUbssITmClvHckUpRmVG08cY8LIgf0HZkVelRk27KTsNZWM " alt="" class="w3-images">
+        </div>
+        <div class="carousel-cell">
+            <img src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites%2Fimages/best-online-mba__1604991666244.png "alt="" class="w3-images">
+        </div>
+        <div class="carousel-cell">
+            <img src=" https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRHJQuF-3ALH6-SlRqNjYnbkaZFE-O770sq8IWSGFVnigRq9QL4"alt="" class="w3-images">
+        </div>
+    </div>
+   <br>
+      <!-- .. -->
+    <div id="kblog">
+      <div id="kbox">
+          <div class="img">
+         <img src="https://www.upgrad.com/blog/wp-content/uploads/2019/07/Blog_FI_July_upGrads-Knowledge-base-352x233.png">
+         <p>BBA Scope in India & Abroad in 2022 [Future of BBA Degree Holder]</p>
+          <p>Bachelor of Business Administration (BBA) is one of the most coveted bachelor’s programs for students...</p>
+         <div class="date">
+             <img src="https://www.upgrad.com/blog/wp-content/uploads/2019/07/Blog_FI_July_upGrads-Knowledge-base-352x233.png">
+             <p>by Shriram</p>
+             <p>NOV 26, 2021</p>
+         </div>
+         </div>
+         <div class="img">
+            <img src="https://www.upgrad.com/blog/wp-content/uploads/2019/07/Blog_FI_July_upGrads-Knowledge-base-352x233.png">
+            <p>Apache Hive Architecture & Commands: Modes, Characteristics & Applications</p>
+             <p>The Apache hive is an open-source data warehousing tool developed by Facebook for distributed processing and data analytics...</p>
+            <div class="date">
+                <img src="./p/1a.jpeg">
+                <p>by Rohit </p>
+                <p>JAN 15, 2021</p>
+            </div>
+            </div>
+            <div class="img">
+                <img src="https://www.upgrad.com/blog/wp-content/uploads/2019/07/Blog_FI_July_upGrads-Knowledge-base-352x233.png">
+                <p>What is the Difference Between Angular and AngularJS?</p>
+                <p>Angular and AngularJS are both web application developer languages. While Angular is based on Typescript as an alternative...</p>
+                <div class="date">
+                    <img src="./p/6a.jpeg">
+                    <p>by Kamal</p>
+                    <p>AUG 23, 2022</p>
+                </div>
+                </div>
+                <div class="img">
+                    <img src="https://www.upgrad.com/blog/wp-content/uploads/2019/07/Blog_FI_July_upGrads-Knowledge-base-352x233.png">
+                    <p>Method Reference in Java 8: Explained With Examples</p>
+                     <p>A method reference is an alternative to creating an instance of a reference type. Among several other uses...</p>
+                    <div class="date">
+                        <img src="https://www.upgrad.com/blog/wp-content/uploads/2019/07/Blog_FI_July_upGrads-Knowledge-base-352x233.png">
+                        <p> by Varun</p>
+                        <p>JUL 5, 2020</p>
+                    </div>
+                    </div>
+                    <div class="img">
+                        <img src="https://www.upgrad.com/blog/wp-content/uploads/2019/07/Blog_FI_July_upGrads-Knowledge-base-352x233.png">
+                        <p>20 Most Common SQL Query Interview Questions & Answers</p>
+                         <p>Attending an SQL interview and wondering what are all the questions and discussions you will go through...</p>
+                        <div class="date">
+                            <img src="https://www.upgrad.com/blog/wp-content/uploads/2019/07/Blog_FI_July_upGrads-Knowledge-base-352x233.png">
+                            <p>by Pawan</p>
+                            <p>FEB 17, 2020</p>
+                        </div>
+                        </div>
+                        <div class="img">
+                            <img src="https://www.upgrad.com/blog/wp-content/uploads/2019/07/Blog_FI_July_upGrads-Knowledge-base-352x233.png">
+                            <p>Flutter vs. React Native: What’s the Difference?[Flutter vs. React Native.]</p>
+                            <p>Flutter is a comprehensive software development toolkit packed with UI tools and widgets in that software... </p>
+                            <div class="date">
+                                <img src="https://www.upgrad.com/blog/wp-content/uploads/2019/07/Blog_FI_July_upGrads-Knowledge-base-352x233.png">
+                                <p> by Rohan</p>
+                                <p>DEC 29, 2021</p>
+                            </div>
+                            </div>
+                              
+      </div>
+      <button>Lode More</button>
+    </div>
+    <div id="BVM">
+        <div id="Krishna">
+        <div id="Arjun">
+            <div class="abi"><h3>upGrad<a href="https://play.google.com/store/apps/details?id=com.graymatrix.did"><img src="https://www.zee5.com/images/play_store.png?ver=2.50.85" alt=""></a></h3></div>
+            <div class="abi2"><h5>Buildin careers of Tomorrow<a href="https://apps.apple.com/in/app/zee5-shows-live-tv-movies/id743691886"><img src="https://www.zee5.com/images/app_store.png?ver=2.50.85" alt=""></a></h3></div>
+            <div class="abi3"><h5><a href="https://www.facebook.com/ZEE5/"><img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Ffacebook.png&w=32&q=75" alt="" width="35px" height="30px"></a><a href="https://twitter.com/zee5india"><img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Ftwitter.png&w=32&q=75" alt="" width="35px" height="30px"></a><a href="https://www.LinkedIn.com"><img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Flinkedin.png&w=32&q=75" alt="" width="35px" height="30px"></a><a href="https://www.Youtube.com"><img src="https://www.upgrad.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fupgrad1%2Fmarketing-platform-assets%2Fsprites%252Fimages%2Fyoutube.png&w=32&q=75" alt="" width="35px" height="30px"></a></h5></div>
+            <hr>   
+        </div>
+     
+    <div class="containermain">
+
+        <div class="box2">
+        <h4>UPGRAD</h4>
+        <p>About<br>
+        Careers<br>
+        Placement Support<br>
+       upGrad Blog<br>
+        Success Stories<br>
+        For Teams<br>
+        Data Science Programs for Teams<br>
+        Product and Technology Programs for Teams<br>
+        Management Programs for teams<br>
+        Online Power Learning<br>
+        Xchange<br>
+        BaseCamp<br>
+        For Business<br>
+        Watch Free Videos<br>
+        upGrad In Media</p>
+    </div>
+    <div class="box3">
+        <h4  style="color: white;">ONEUPGRAD</h4>
+        <p> upGrad Rekrut<br>
+            upGrad Jeet<br>
+            upGrad Campus<br>
+            Study Abroad
+        </p>
+    </div>
+    <div class="box4">
+        <h4  style="color: white;">SUPPORT</h4>
+        <p>Contact<br>
+        Terms & Conditions<br>
+        Privacy Policy</p>
+    </div>
+    <div class="box5">
+        <h4 style="color:white">MBA</h4>
+        <p>Liverpool Business School | MBA (Global)<br>
+        Deakin Business School | MBA(Global)<br>
+        PG Diploma in Management | PG Diploma<br>
+        MBA | Executive Program<br>
+        Digital Finance & Banking | MBA<br>
+        Business Administration SSBM | Global Doctrate<br>
+        Management | PG Program<br>
+        Job Linked Management Program with IMT-G<br>
+        Deakin Business School | MBA(Global)
+        </p>
+    </div>
+    <div class="box6">
+        <h4 style="color:white">DATA SCIENCE</h4>
+        <p>Data Scince | Master of Science<br>
+            Data Science | Executive PG Programme<br>
+            Data Science for Business Decision Making | Pr...<br>
+            Data Science | Master's Degree<br>
+            Data Science | Advanced Certificate Programme<br>
+            Data Analytics | Certificate Program<br>
+            Data Science | Advanced Programme<br>
+            Data Science and Business Analytics|Professio...<br>
+            Python Programming Bootcamp | Certification
+       </p>
+    </div>
+     
+    <div class="copyright"><h6>© 2015-2021 upGrad Education Private Limited. All rights reserved</h6></div>
+</div>               
+  </body>
+</html>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<link rel="stylesheet" href="./styles/main.css">

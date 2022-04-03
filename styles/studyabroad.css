@@ -1,0 +1,458 @@
+  *{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  }
+  #navbar{
+      /* border: solid 1px red; */
+      width: 100%;
+      height: 100px;
+      display: flex;
+      
+  }
+  #navbar>div>img{
+      height: 46px;
+      width: 89px;
+      /* margin-top:px; */
+      margin-top: 20px;
+      margin-left: 100px;
+  }
+  .nav01{
+     margin-top: 30px;
+     margin-left: 200px;
+  }
+  .nav02{
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .nav03{
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .nav04{
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+
+  .dropbtn {
+    background-color: white;
+    /* color: white; */
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin-top: 16px;
+    margin-left: 15px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #dbe2db;}
+
+  #signinbutton{
+     color: white;
+     background-color: rgb(252, 62, 62); 
+     height: 40px;
+     width: 100px;
+     padding: 10px;
+      border-radius: 5px;
+      margin-top: 20px;
+      margin-left: 30px;
+      text-align: center;
+      font-weight: bold;
+  }
+  #counselor{
+    height: 45px;
+    width: 280px;
+    border-radius: 5px;
+    background-color: #f23e36;
+    padding: 0 32px;
+    margin: auto;
+    box-sizing: initial;
+}
+#counselor>h3{
+    text-align: center;
+    padding: 15px;
+    color: white;
+    /* font-family: inherit; */
+    font-size: 18px;
+    font-weight: 600;
+}
+#readmore{
+    height: 45px;
+    width: 350px;
+    border-radius: 5px;
+    background-color: #273959 ;
+    padding: 0 32px;
+    margin: auto;
+    box-sizing: initial;
+}
+#readmore>h3{
+    text-align: center;
+    padding: 15px;
+    color: white;
+    /* font-family: inherit; */
+    font-size: 18px;
+    font-weight: 600;
+}
+#studyprograms{
+    text-align: center;
+    /* border: solid 1px black; */
+}
+#js01{
+  background: linear-gradient(90deg,#E24B49 0%,#EE756E 100%);
+  height: 150px;
+  width: 100%;
+  display: flex;
+}
+#js03>button{
+  background-color: white;
+  color: #f23e36;
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+  height: 50px;
+  border: white ;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.js02>h2{
+  color: white;
+  font-size: 22px;
+  line-height: 26px;
+
+}
+.js02>p{
+  color: white;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.js02{
+  padding: 20px 80px;
+}
+.mediabox{
+  margin-top: 50px;
+  /* margin-left: 40%; */
+}
+.js04{
+  display: flex;
+  margin-top: 50px;
+  /* border: solid red 1px; */
+  margin-left: 100px;
+}
+.js04>div>img{
+  /* margin: auto; */
+  /* border: solid black 1px; */
+  height: 120px;
+  width: 200px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.js05{
+  border: solid 1px transparent;
+  background-color: #ececec;  
+}
+.js05>h1{
+  /* color: red; */
+  font-size: 26px;
+  text-align: center;
+  margin-top: 100px;
+}
+.js05>p{
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+
+/* travelfrom */
+
+.fromtravel{
+  display: flex;
+  width: 100%;
+}
+.fromclass{
+  width: 50%;
+  margin-left: 30px;
+}
+.travelgirl{
+  width: 50%;
+}
+form>input{
+  border-radius: 27px;
+  height: 37px;
+  background:#FFFFFF;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 25%);
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
+  width: 90%;
+  border: 1px solid #ced4da;
+  line-height: 1.5;
+  cursor: text;
+}
+form>button{
+  background-color: #fff;
+  padding: 5px 20px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 14px;
+  color: #EE2C3C;
+  border: 1px solid #EE2C3C;
+  width: 121px;
+  text-align: center;
+  margin-top: 10px;
+}
+form>p{
+  text-align: left;
+  margin-left: 50px;
+}
+#submitbutton{
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #EE2F3D;
+  border-radius: 2px;
+  width: 305px;
+  height: 40px;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  margin: 50px 0 0 0 ;
+}
+
+.flystudy{
+  width: 100%;
+}
+.imgflystudy{
+  /* height: 400px; */
+  width: 100%;
+}
+
+/* Study Abroad Programs */
+.sap01{
+  /* border: solid 1px black; */
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+.sap02{
+  /* border: red solid 1px; */
+  border-radius: 10px;
+  /* width: 30%; */
+  margin-right: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  /* margin-bottom: 20px; */
+  /* height: 300px; */
+}
+.sap02>div>img{
+  width: 100%;
+  border-radius: 10px;
+  height: 130px;
+}
+.sap03>h4{
+  text-align: left;
+  margin-left: 10px;
+  line-height: 3px;
+}
+.sap03>h3{
+  color: red;
+  text-align: left;
+  margin-left: 10px;
+  line-height: 3px;
+}
+.sap04{
+  border: red solid 1px;
+  width: 90%;
+  margin: auto;
+  color: red;
+  font-size: 14px;
+  /* height: 25px; */
+  padding: 5px;
+}
+.sap05{
+  border: red solid 1px;
+  margin: auto;
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  color: white;
+  background-color: red;
+  padding: 5px;
+}
+.sap03>p{
+  font-size: 14px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+
+/* footer  */
+
+#BVM{
+  background-color:#404040;
+}
+#Krishna{
+  
+    height: 950px;
+    justify-content: center;
+    text-align: center;
+    background-color:#404040;
+    padding-left:7rem;
+    padding-right:7rem;
+
+  
+}
+#Arjun{
+    margin: 120px;
+    color: white;
+    text-align: centre;
+    text-align: left;
+}
+.abi{
+    font-weight: 900;
+    font-size: 27px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p1{
+    font-size:16px ;
+    font-family: sans-serif;
+}
+span{
+    color:#404040;
+}
+
+a{
+    color: rebeccapurple;
+}
+p6{
+    color:white ;
+    padding-top: 100px;
+}
+.abi a{
+    float: right;
+}
+.abi{
+    padding-top: 20px;
+}
+.abi2 a{
+    float: right;
+
+}
+.abi3 a{
+    padding-left:25px;
+}
+.containermain{
+
+    width:100%;
+    background-color: #404040;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.containermain > div{
+    width:20%;
+    height:150px;
+    font-size: 18px;
+    text-align: left;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:20px;
+    /* padding-top: 300px; */
+}
+.copyright{
+    float: left;
+    color:gray;
+    text-align: left;
+}
+
+/* slider  */
+
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

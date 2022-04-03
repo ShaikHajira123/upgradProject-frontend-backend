@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+          body{
+              text-align:center;
+          }
+          
+          body{
+              background-size: 100%;
+              background-color: rgb(245, 178, 178);
+          }
+          #container{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            width:25%;
+            height:400px;
+            margin-left:40%;
+            margin-top:5%;
+            background:white;
+            color:red;
+            border-radius: 15px;
+          }
+          form>p{
+              color:black;
+              font-weight:bold;
+              margin:10px;
+          }
+          form{
+            text-align:left;
+            margin-left:10px;
+            margin-top:40px;
+          }
+          #email,#cpass{
+              height:30px;
+              width:70%;
+          }
+        
+          input:nth-child(6){
+              margin-top:20px;
+              background:red;
+              border:0px;
+              width:70%;
+              margin-left:10%;
+              border-radius:10px;
+          }
+          input:nth-child(6):hover{
+              background:grey;
+          }
+          button{
+              background-color: red;
+              padding:10px;
+              margin:auto;
+              color:white;
+              font-size:30px;
+              font-weight:600;
+              margin-left:80px;
+              margin-top:60px;
+              border-radius: 10px;
+              
+          }
+       
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        <h1>Sign In</h1>
+        <form action="http://localhost:4900/login" method="POST">
+            <p>Username</p>
+            <input id="email" type="text" placeholder="Enter email" name="email" required/>
+            <p>password</p>
+            <input id="cpass" type="password" placeholder="enter password" name="password" required/>
+            <br>
+            <button class="sbt">Submit</button>          
+        </form>
+    </div>
+</body>
+</html>
+<script>
+      var url="http://localhost:4900/login"
+     document.querySelector("form").addEventListener("submit",subfun);
+
+    function subfun(eve){
+        eve.preventDefault();
+    var email=document.querySelector("#email").value;
+        var pass=document.querySelector("#cpass").value;
+    const DataToStore =  { 
+  email: email,
+  password: pass,
+
+};
+console.log(DataToStore)
+
+fetch(url, {
+    method: 'POST', // Using POST request to create a new resource in the database
+        mode: 'cors', // no-cors, cors, *same-origin
+        cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+        credentials: 'include', // include, *same-origin, omit
+        headers: {
+            'Content-Type': 'application/json;charset = UTF-8',
+        },
+        redirect: 'follow', // manual, *follow, error
+       referrer: 'no-referrer', // no-referrer, *client
+body : JSON.stringify(DataToStore)
+})
+ 
+alert("login success")
+window.location.href="index.html"
+            
+}
+</script>

@@ -1,0 +1,152 @@
+
+.containerb{
+            
+    margin-left:10rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 100px;
+   
+    
+
+}
+.containerb h2{
+    margin-top:3rem;
+}
+.col1{
+    margin-top:2rem;
+}
+
+#row1{
+    display: flex;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+   
+    
+}
+.col1{
+    width: 500px;
+    height: 80px;
+    border: 1px;
+    border-radius:10px;
+    color:#fd5e53;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-right: 3%;
+    font-weight: lighter;
+
+}
+
+.disclaimerb{
+     border-radius: 12px;
+    padding-right: 50px;
+    margin-right: 3%;
+    border-color:white;
+    margin-top:5%;
+    box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    padding-left:10px;
+    height: 150px;
+    }
+#BVM{
+background-color:#404040;
+height: 1500px;
+}
+#Krishna{
+
+height: 2000px;
+justify-content: center;
+text-align: center;
+background-color:#404040;
+padding-left:7rem;
+padding-right:7rem;
+
+
+}
+#Arjun{
+margin: 120px;
+color: white;
+text-align: centre;
+text-align: left;
+}
+.abi{
+font-weight: 900;
+font-size: 27px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p1{
+font-size:16px ;
+font-family: sans-serif;
+}
+span{
+color:#404040;
+}
+
+
+
+
+
+
+
+
+a{
+color: rebeccapurple;
+}
+p6{
+color:white ;
+padding-top: 100px;
+}
+.abi a{
+float: right;
+}
+.abi{
+padding-top: 20px;
+}
+.abi2 a{
+float: right;
+
+}
+.abi3 a{
+padding-left:25px;
+}
+.containermain{
+
+width:100%;
+background-color: #404040;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+.containermain > div{
+width:20%;
+height:150px;
+font-size: 18px;
+text-align: left;
+color: gray;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding:20px;
+padding-top: 100px;
+}
+.copyright{
+float: left;
+color:gray;
+text-align: left;
+}
+
+
+/* hr{
+border: 3px ;
+color: white;
+} */
+
+.h1-head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.box7,.box8,.box9,.box10,.box11,.box12,.box13{
+    margin-top: 400px;
+}
+.copyright{
+    margin-top: 600px;
+    margin-left:250px;
+}

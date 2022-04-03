@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Class (live +recorded) Live interaction</title>
+    <link rel="stylesheet"
+href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+integrity=
+"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/More-Upgrad-webinar.css">
+</head>
+<body>
+        <div class="web-container">
+            <div class="nav-logo">
+                <img src="https://v.fastcdn.co/u/f8c127f9/61025486-0-upGrad-Webinars.png" alt="" class="nav-img">
+            </div>
+            <div class="bck-img">
+                <img src="https://v.fastcdn.co/u/f8c127f9/59149212-0-Banner.jpg" alt="" class="nav-img">
+                <div class="text-img">
+                   
+                </div>
+                <h1 class="inner-txt-img">Practical industry insights to advance your career path</h1>
+                <button class="inner-btn-img"> <a class="A" href="#signup-box">Sign Up</a></button>
+            </div>
+
+            <div class="regAndw">
+
+                <div class="inner-reg-div">
+                    <h1 class="black-text">
+                        Register and watch upGrad Webinars now
+                    </h1>
+                    <div class="reg-in">
+                    <div>
+                        <img src="https://v.fastcdn.co/u/f8c127f9/59166192-0-Data.jpg" alt="" class="reg-img">
+                        <button class="reg-btn">Data Science</button>
+                    </div>
+                    <div>
+                        <img src="https://v.fastcdn.co/u/f8c127f9/59166187-0-Managment.jpg" alt="" class="reg-img">
+                        <button id="btn2" class="reg-btn">Management+Marketing</button>
+                    </div>
+                    <div>
+                        <img src="https://v.fastcdn.co/u/f8c127f9/59166182-0-Tech.jpg" alt="" class="reg-img">
+                        <button class="reg-btn">Technology</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+              <div class="img-cont">
+                <div class="effect"></div>
+                  <img src="https://v.fastcdn.co/u/f8c127f9/58668822-0-shutterstock-7582641.jpg" alt="" class="nav-img">
+                  <h1 class="why">Why sign up?</h1>
+                  <div class="why-cont">
+                      <div>
+                          <img src="https://v.fastcdn.co/u/f8c127f9/58904802-0-1-01.png" alt="" class="why-logos">
+                          <h4 class="why-img-text">Short & Free</h4>
+                      </div>
+                      <div>
+                          <img src="https://v.fastcdn.co/u/f8c127f9/58904812-0-1-03.png" alt="" class="why-logos">
+                          <h4 class="why-img-text">Quick Tips and Tools</h4>
+                      </div>
+                      <div>
+                          <img src="https://v.fastcdn.co/u/f8c127f9/58904822-0-1-04.png" alt="" class="why-logos">
+                          <h4 class="why-img-text">Expert-led Training</h4>
+                      </div>
+                      <div>
+                          <img src="https://v.fastcdn.co/u/f8c127f9/58669977-0-icons-23.png" alt="" class="why-logos">
+                          <h4 class="why-img-text">Resolve Doubts with Experts</h4>
+                      </div>
+                  </div>
+
+                 
+              </div>
+             <form action="/register" method="POST">
+               <div id="signup-box" class="signup-box">
+                   <h1 class="black-text">Fill The Details</h1>
+                   <div class="input">
+                   <input id="user" type="text" placeholder="Name" name="Name" required>
+                     <br>
+                   <input id="email" type="text" placeholder="Email ID" name="email" required>
+                   <br>
+                   <input id="pass" type="text" placeholder="Password" name="password" required >
+                   <br>
+                   <input id="mobile" type="text" placeholder="Phone Number" name="mobileNo" required >
+                   <br>
+                   <button class="sbt">Submit</button> 
+                </div>
+            </form>
+               </div>
+
+               <div class="footer">
+                  <div class="imgdiv"> <img src="https://v.fastcdn.co/u/f8c127f9/39433271-0-Logo-2-variations-01.png" alt="" class="nav-img"></div> 
+                  <div class="line"></div>
+                  <h5 class="white">© Copyright. upGrad Education Pvt. Ltd. All Rights Reserved.</h5>
+                </div>
+        </div>
+</body>
+</html>
+<script >
+    var url="http://localhost:4900/register"
+     document.querySelector("form").addEventListener("submit",subfun);
+    function subfun(eve){
+        eve.preventDefault();
+    var email=document.querySelector("#email").value;
+        var pass=document.querySelector("#pass").value;
+        var user=document.querySelector("#user").value;
+        var mobile=document.querySelector("#mobile").value;
+
+    const DataToStore =  { 
+  Name: user, 
+  email: email,
+  password: pass,
+  mobileNo:mobile,
+};
+console.log(DataToStore)
+       
+
+fetch(url, {
+    method: 'POST', // Using POST request to create a new resource in the database
+        mode: 'cors', // no-cors, cors, *same-origin
+        cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+        credentials: 'include', // include, *same-origin, omit
+        headers: {
+            'Content-Type': 'application/json;charset = UTF-8',
+        },
+        redirect: 'follow', // manual, *follow, error
+       referrer: 'no-referrer', // no-referrer, *client
+body : JSON.stringify(DataToStore)
+})
+localStorage.setItem("login",DataToStore)
+alert("Signup success")
+window.location.href="login.html"
+}
+</script>

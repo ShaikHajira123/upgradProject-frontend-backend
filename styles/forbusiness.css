@@ -1,0 +1,585 @@
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+}
+
+#navbar{
+    display:flex;
+    height: 7.4375rem;
+    width:100%;
+    background: rgb(249, 250, 250);
+    justify-content: space-around;
+    position:fixed;
+    margin-top:-7px;
+    }
+#head{
+    margin:25px;
+    
+}
+.upgrad{
+    font-size:50px;
+    color:rgb(240, 3, 3);
+    font-weight: 900;
+}
+.business{
+    margin-top:-15px;
+    margin-left:75px;
+    font-weight: 900;
+    font-size:large;
+    display:flex;
+   
+}
+#head1{
+    display:flex;
+    margin:10px;
+}
+.heads{
+    margin:25px;
+    font-weight:600;
+    font-size:16px;
+    color:rgb(83, 83, 83);
+}
+#btn1{
+    width:130px;
+    height:25px;
+    border:1px solid rgb(255, 246, 246);
+    background-color:rgb(251, 251, 251);
+    color:rgb(5, 5, 5);
+    font-weight:500;
+    font-size: 16px;
+    padding:10px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top:10px;
+    margin-right:10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#btn2{
+    width:130px;
+    height:25px;
+    background-color:rgb(240, 3, 3);
+    color:white;
+    font-weight:600;
+    font-size: large;
+    padding:10px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top:10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#url{
+    height:55.625rem;
+    background-image: url("https://v.fastcdn.co/u/f8c127f9/58216147-0-Banner.jpg");
+    background-repeat: no-repeat;
+    
+}
+.box{
+    width:500px;
+    font-size:25px;
+    background-color: rgb(248, 50, 43);
+    height:30.825rem;
+    color:white;
+    padding-top:200px;
+    padding-left:25px;
+    margin-left:150px;
+}
+.box1{
+    background-color: rgb(51, 50, 50);
+    height:30px;
+    padding:40px;
+    display:flex;
+    justify-content: space-around;
+    
+}
+.box1_p{
+    color:white;
+    font-size:26px;
+    font-weight:600;
+   
+    
+}
+.btn3{
+    background-color:white;
+    color:red;
+    border-radius: 5px;
+    font-size:22px;
+    text-align: center;
+    font-weight:600;
+    height:50px;
+}
+.and{
+    color:white;
+    font-weight: 900;
+    font-size:40px;
+    margin-top:-10px;
+}
+#image{
+    margin-top:-18px;
+    margin-top:-20px;
+}
+.workbetter{
+    color:white;
+    margin-top:-15px;
+    margin-left:75px;
+    font-weight: 900;
+    font-size:large;
+}
+#mainbox{
+    background: rgb(249, 250, 250);
+    height:400px
+}
+#mainurl{
+    display:flex;
+    width:80%;
+    margin:auto;
+    justify-content: space-between;
+   
+}
+#url1>img{
+    width:300px;
+    height:330px;
+    position:absolute;
+}
+#url1>h2,p{
+    position:relative;
+    color:white;
+    margin-left:40px;
+}
+#para{
+    width:290px;
+}
+#circles{
+    display:flex;
+    width:80%;
+    height:230px;
+     justify-content: space-around;
+     margin:auto;
+
+}
+#circle{
+    width:170px;
+    height:170px;
+    border-radius: 50%;
+    background-color:rgb(240, 248, 248);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#awards{
+    height:400px;
+    background-color: rgb(239, 243, 243);
+}
+#awardsimg{
+    display:flex;
+    width:77%;
+    margin:auto;
+    margin-top:50px;
+    justify-content: space-between;
+}
+#awardsdiv>img{
+    width:200px;
+    height:160px;
+    margin-left:20px;
+}
+
+#awardsdiv>p{
+    color:black;
+    margin-left:10px;
+    line-height:5px;
+    text-align: center;
+}
+#awards>button{
+   background-color:red;
+   color:white;
+    font-weight:600;
+    padding:10px;
+    border-radius: 5px;
+    border:none;
+    margin-left:20%;
+    
+}
+.solutionspara{
+    font-size:21px;
+    font-weight: 500;
+    width:700px;
+    text-align: center;
+    margin:auto;
+}
+#solutions{
+    display:grid;
+    grid-template-columns: repeat(6,200px);
+     gap:20px;
+    height:320px;
+    width:100%;
+    margin-top:40px;
+}
+
+#solution1{
+    
+    background-image:url("https://v.fastcdn.co/u/f8c127f9/58198462-0-shutterstock-1351467.jpg");
+    background-size: 210px 320px;
+  
+}
+ #solution2{
+    background-image:url("https://v.fastcdn.co/u/f8c127f9/58190217-0-pushing-play-button.jpg");
+   background-size: 210px 320px;
+    
+}
+#solution5{
+    background-image:url("https://v.fastcdn.co/u/f8c127f9/58190902-0-shutterstock-1079442.jpg");
+    background-size: 210px 320px;
+    
+}
+#solution4{
+    background-image:url("https://v.fastcdn.co/u/f8c127f9/59151602-0-shutterstock-1219444.jpg");
+    background-size: 210px 320px;
+}
+#solution6{
+    background-image:url("https://v.fastcdn.co/u/f8c127f9/58198582-0-shutterstock-1459714.jpg");
+    background-size: 210px 320px;
+   
+}
+#solution3{
+    background-image: url("https://v.fastcdn.co/u/f8c127f9/58190227-0-glasses-pen-with-sil.jpg");
+    background-size: 210px 320px;
+}
+#solution1>img{
+    height:320px;
+    width:200px;
+   position:absolute;
+  
+}
+#solution2>img{
+    height:320px;
+    width:200px;
+   position:absolute;
+   
+}
+#solution3>img{
+    height:320px;
+    width:200px;
+    position:absolute;
+}
+#solution4>img{
+    height:320px;
+    width:200px;
+    position:absolute;
+}
+#solution5>img{
+    height:320px;
+    width:200px;
+    position:absolute;
+}
+#solution6>img{
+    height:320px;
+    width:200px;
+    position:absolute;
+}
+#solpara{
+    margin-top:200px;
+    width:200px;
+    height:100px;
+}
+#solpara>h2{
+   color:white;
+   text-align: center;
+   line-height: 2px;
+  
+}
+#solpara>p{
+ font-size:12px;
+ text-align: center;
+}
+#universities{
+    height:450px;
+    margin-top:90px;
+    background-color: rgb(251,251,251);
+   
+}
+#uni{
+    display:flex;
+    width:85%;
+    height:330px;
+    margin:auto;
+    justify-content: space-between;
+}
+#inUni{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top:20px;
+    width:48%;
+    background-color: rgb(251,251,251);
+}
+#inUni>img{
+    width:130px;
+    height:50px;
+    margin:10px;
+  
+}
+#nUni{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: rgb(251,251,251);
+    margin-top:20px;
+    width:48%;
+}
+#nUni>img{
+    width:140px;
+    height:55px;
+    margin:10px;
+    
+}
+
+#companies{
+    display:grid;
+    width:80%;
+    height:280px;
+    margin:auto;
+    grid-template-columns: repeat(6,170px);
+    grid-template-rows: repeat(3,90px);
+    gap:7px;
+}
+#company{
+    border-radius: 4px;
+    background-color: #dee5e6;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+#company>img{
+    width:130px;
+    height:50px;
+    padding:22px;
+}
+#offerings{
+    height:1200px;
+    width:100%;
+    background-color: rgb(251,251,251);
+}
+
+#explore>a{
+    background-color:rgb(212, 24, 24) ;
+    padding:10px 50px 10px 50px;
+    color:white;
+    font-size:18px;
+    font-weight:600;
+    margin-left:40%;
+    border-radius: 5px;
+    border:none;
+    text-decoration: none;
+    
+}
+#spannings{
+    display:grid;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(2,200px);
+    gap:10px;
+    width:65%;
+    margin:auto;
+}
+#spanning>img{
+    width:200px;
+    height:200px;
+    position:absolute;
+}
+#spanning>h2{
+    position:relative;
+    color:white;
+    text-align: center;
+    padding-top:120px;
+}
+#newofferings{
+    display:flex;
+    width:78%;
+    height:250px;
+    margin:auto;
+    justify-content: space-between;
+
+}
+#newoffering{
+   width:230px;
+}
+#newoffering>img{
+    width:100px;
+    height:100px;
+    
+    margin:20px 0px 0px 60px;
+}
+#newoffering>h4{
+    color:rgb(247, 28, 28);
+    text-align: center;
+    font-size:18px;
+    line-height:10px;
+}
+#newoffering>p{
+    color:black;
+    text-align: center;
+}
+#blackdiv{
+    width:100%;
+    height:230px;
+    background-color:rgb(26, 25, 25);
+}
+#downloads{
+    display:flex;
+    justify-content: space-between;
+    width:78%;
+    margin:auto;
+}
+#download1{
+    width:580px;
+    height:300px;
+    margin-top:50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#download2>img{
+    width:320px;
+    height:500px;
+}
+#download1>h2{
+    color:rgb(212, 24, 24);
+    margin-left:10px;
+    line-height: 40px;
+    margin-top:50px;
+}
+#download1>a{
+    background-color:rgb(212, 24, 24) ;
+    padding:10px 50px 10px 50px;
+    color:white;
+    font-size:18px;
+    font-weight:600;
+    margin-left:10px;
+    border-radius: 5px;
+    border:none;
+    text-decoration: none;
+}
+#blackdiv2{
+    width:100%;
+    height:290px;
+    margin-top:-30px;
+    background-color:rgb(26, 25, 25);
+}
+#explore2>a{
+    background-color:rgb(212, 24, 24) ;
+    padding:10px 50px 10px 50px;
+    color:white;
+    font-size:18px;
+    font-weight:600;
+    margin-left:40%;
+    border-radius: 5px;
+    border:none;
+    text-decoration: none;
+    
+}
+#formdiv{
+    height:700px;
+    width:100%;
+    background-image: url("	https://v.fastcdn.co/u/f8c127f9/58187312-0-two-confident-busine.jpg");
+    background-size: 100% 700px;
+    background-size:cover;
+  
+}
+#backdiv{
+    display:flex;
+    justify-content: space-around;
+}
+#backdiv>img{
+    height:700px;
+    width:99%;
+    position:absolute;
+}
+#form{
+    width:350px;
+    background-color: rgb(251, 251, 251);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    height:700px;
+    position:relative;
+    
+}
+#h1{
+    width:520px;
+}
+#h1>h1{
+    margin-top:150px;
+    font-size: 70px;
+    color:white;
+}
+form>input{
+    padding:10px 50px 10px 50px;
+    margin:10px;
+    margin-left:40px;
+    text-align: center;
+}
+select{
+    padding:10px 50px 10px 90px;
+    margin:10px;
+    margin-left:40px;
+    text-align: center;
+}
+#form>p{
+    color:black;
+    line-height: 17px;
+}
+form>p{
+    color:black;
+}
+form>button{
+    color:white;
+    background-color: red;
+    padding:10px 40px 10px 40px;
+    margin-left:50px;
+    border:none;
+    font-size: larger;
+    border-radius: 5px;
+}
+#form>button{
+    color:white;
+    background-color: red;
+    padding:10px 40px 10px 40px;
+    margin-left:50px;
+    border:none;
+    font-size: larger;
+    border-radius: 5px;
+}
+#footer{
+    margin-top:1px;
+    background-color: black;
+    height:250px;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    padding-top:50px;
+    
+}
+.upgrad1{
+    font-size:30px;
+    color:white;
+    font-weight: 900;
+    margin-left:50px;
+}
+.business1{
+    margin-top:-15px;
+    margin-left:30px;
+    line-height: 25px;
+    font-weight: 700;
+    font-size:13px;
+    display:flex;
+    color:white;
+    margin-left:80px;
+}
+#imagess>{
+    color:white;
+    background-color: azure;
+}
+#p1>p{
+    line-height: 10px;
+}
+#p2>p{
+    line-height: 10px;
+}
+#btnlikediv{
+    color:white;
+    padding:15px;
+    width:250px;
+    border:1px solid white;
+    margin:30px;
+    border-radius: 10px;
+     text-align: center;
+
+}

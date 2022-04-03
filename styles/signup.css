@@ -1,0 +1,36 @@
+#container{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width:300px;
+    text-align:center;
+    margin-left:40%;
+    margin-top: 4%;
+    background:white;
+    color:black;
+    border-radius:15px;
+  }
+  form>input{
+      width:80%;
+      border:0.5px solid black;
+      height:25px;
+      border-radius:5px;
+
+  }
+  form>h3{
+      text-align:left;
+      margin-left:28px;
+  }
+  input:nth-child(10){
+    margin-top:20px;
+  background:red;
+  border:0px;
+  width:80%;
+  color:white;
+  margin-bottom:20px;
+  padding:10px;
+  border-radius:10px;
+
+    
+}
+input:nth-child(10):hover{
+  background:grey;
+}
