@@ -25,8 +25,8 @@ Backend Repo Link : https://github.com/ShaikHajira123/upgradProject-backend.git
 
 
 ## Instructions to Run the Code Using AWS
------------------------------------------------------------------
-Note:
+
+## Note:
 
 ### We created cloud database using MongoDb Atlas and deployed on AWS. So, if you want to run our code then please read the instructions below :
 
@@ -72,4 +72,4 @@ Note:
 
  EX : http://ec2-3-88-12-166.compute-1.amazonaws.com:5000/upgradWebinar
  
- #### Click this deploy link to see our project :
+ #### Click this deploy link to see our project : http://hajiranewupgradapp.netlify.app/
